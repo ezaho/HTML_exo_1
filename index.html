@@ -5,22 +5,18 @@
     <meta charset="utf-8">
     <meta name="bref presentation">
     <link rel="stylesheet" href="style.css">
+<!--Puisque tu as utilisé une feuille de style CSS externe (voir ligne précédente), 
+tu peux supprimer les balises <style> qui ne contiennent plus rien.
+Histoire de nettoyer ton code et qu'il soit bien propre :) -->
     <style>
-
-
-
     </style>
-
-
-
-
-
-
-
-
   </head>
   <body>
       <div id="wrap">
+<!--Correction emily :
+Grâce au HTML5, on utilise les balises <nav>, <aside>, <footer> directement 
+au lieu d'écrire <div id="nav"> par exemple.
+-->
               <div id="nav"><h1>c'est qui ?</h1></div>
               <div id="header"><h2>Lui, c'est claudy</h2></div>
               <article>
@@ -34,6 +30,10 @@
               </article>
 
               <article>
+<!--correction emily : 
+attention, tu as oublié de mettre correctement le lien de l'image.
+Également, fais bien attention quand tu écris ton style css, que met-on après la propriété css ? Est-ce vraiment un point-virgule ?
+-->
                 <img src=".jpg" style="width;240px;" alt="image"/>
               </article>
 
@@ -41,6 +41,7 @@
                 Le formulaire
                     <form name="my_form" action="#result" method="post">
                       <p> <label for="nom">Nom</label> <input type="text" id="nom"> </p>
+<!--Attention : le type est "email" et non "e-mail" ! :) -->
                       <p> <label for="email">E-mail</label> <input type="e-mail" id="email"> </p>
                       <p> <label for="sujet">Sujet</label> <input type="text" id="sujet"> </p>
                       <p> <label for="message">Message</label> <textarea id="message"></textarea> </p>
@@ -50,19 +51,6 @@
               <div id="footer">
                 <h2><strong><marquee direction="right" behavior="alternate">claudy</marquee></strong></h2>
               </div>
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
    </body>
   </html>
